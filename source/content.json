@@ -1,0 +1,556 @@
+{
+  "en": {
+    "meta": {
+      "title": "Denner Santana | Staff QA Engineer / SDET, AI-Driven Test Automation",
+      "description": "Staff QA Engineer / SDET with 11+ years. Agentic AI testing, MCP servers, Playwright and GitLab CI/CD. Open to remote roles in US time zones.",
+      "keywords": [
+        "AI QA Engineer",
+        "SDET",
+        "Staff QA Engineer",
+        "AI-driven test automation",
+        "Agentic AI testing",
+        "Human-in-the-loop testing",
+        "AI subagents",
+        "MCP (Model Context Protocol)",
+        "Custom MCP server",
+        "Playwright MCP",
+        "LLM integration",
+        "AI-generated BDD scenarios",
+        "Playwright",
+        "JavaScript",
+        "GitLab CI/CD",
+        "CI/CD pipeline optimization",
+        "Flaky test reduction",
+        "Selenium to Playwright migration",
+        "API testing",
+        "REST contract validation",
+        "Postman",
+        "Swagger/OpenAPI",
+        "BDD / Gherkin / Cucumber",
+        "Cypress",
+        "Appium mobile testing",
+        "Claude Code",
+        "GitHub Copilot",
+        "Shift-left testing",
+        "Risk-based testing",
+        "Remote QA engineer US time zones"
+      ]
+    },
+    "nav": {
+      "about": "About",
+      "ai_focus": "AI testing",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects",
+      "learning": "Learning",
+      "contact": "Contact",
+      "language_toggle": "PT",
+      "resume_cta": "Get in touch"
+    },
+    "hero": {
+      "eyebrow": "Staff QA Engineer / SDET · AI-Driven Test Automation",
+      "headline": "Agentic testing. Human-approved.",
+      "subheadline": "11+ years in QA. I build human-in-the-loop AI testing workflows with AI subagents, custom MCP servers and Playwright that turn user stories into reviewed, executed and documented tests. Open to remote SDET and AI QA roles in US time zones.",
+      "terminal": [
+        { "cmd": "$ npx playwright test", "out": "✓ 250+ UI tests + API tests across 95+ APIs · done in ≤ 33 min" },
+        { "cmd": "$ diff pipeline --legacy=jenkins+selenium --new=gitlab-ci+playwright", "out": "↓ up to 67% faster daily runtime" },
+        { "cmd": "$ agent run --input=user-story", "out": "→ strategy → BDD scenarios → test code → Playwright run → evidence in ALM Octane" },
+        { "cmd": "$ review --required-approvals=2", "out": "✓ every AI-generated change is approved by two QA engineers" },
+        { "cmd": "$ mcp connect --env=non-prod", "out": "✓ custom MCP server + Playwright MCP ready" }
+      ],
+      "cta_primary": { "label": "See how I test with AI", "href": "#ai-focus" },
+      "cta_secondary": { "label": "Contact me", "href": "#contact" }
+    },
+    "stats": [
+      { "number": "11", "suffix": "+", "label": "years in QA and test automation" },
+      { "number": "67", "suffix": "%", "label": "faster daily pipeline (up to, vs. legacy Jenkins)" },
+      { "number": "250", "suffix": "+", "label": "Playwright UI tests in the daily pipeline" },
+      { "number": "95", "suffix": "+", "label": "APIs covered by automated API tests" }
+    ],
+    "about": {
+      "title": "About",
+      "paragraphs": [
+        "I'm a Staff QA Engineer and SDET based in São Paulo, with 11+ years in quality assurance and test automation across regulated insurance, fintech, agtech and retail. At BNP Paribas Cardif I own the QA automation pipeline for a 9-person QA team, and I lead its modernization from a legacy Selenium/Jenkins setup to Playwright on GitLab CI/CD, cutting daily pipeline runtime by up to 67%.",
+        "Today my focus is AI in testing: human-supervised agentic workflows where AI subagents, custom MCP servers and an internal enterprise AI platform do the heavy lifting, and QA engineers keep the final say. I work in English, Spanish and Portuguese with business and technical stakeholders across Latin America and Europe, and I'm open to remote roles in US time zones."
+      ]
+    },
+    "ai_focus": {
+      "title": "AI-driven testing, with a human in the loop",
+      "intro": "At Cardif I designed an agentic testing workflow where AI subagents turn a user story into executed, documented tests. AI drafts and runs the work. Two QA engineers review and approve every change before it goes anywhere.",
+      "pipeline": [
+        { "step": "01", "title": "Read the story", "text": "An AI subagent reads the user story and its acceptance criteria." },
+        { "step": "02", "title": "Draft the strategy", "text": "The agent drafts a test strategy for the story's risks and scope." },
+        { "step": "03", "title": "Generate BDD", "text": "BDD/Gherkin scenarios are generated and reviewed against the business behavior." },
+        { "step": "04", "title": "Write test code", "text": "Playwright (JavaScript) test code is generated and reviewed." },
+        { "step": "05", "title": "Run in Playwright", "text": "Tests run in Playwright and evidence is logged in ALM Octane." },
+        { "step": "06", "title": "Human approval", "text": "Two QA engineers do a final review of every change before approval." }
+      ],
+      "capabilities": [
+        {
+          "title": "Custom MCP server",
+          "text": "Built a Model Context Protocol server that connects AI agents to non-production environments. A proof of concept unifies token-based integrations across proxies and backend services into a single shell call, turning a manual, multi-tab process into seconds.",
+          "tags": ["MCP", "AI agents", "Non-prod environments", "Shell"]
+        },
+        {
+          "title": "Playwright MCP",
+          "text": "Paired the custom MCP server with Playwright MCP so agents can drive the browser and run end-to-end checks inside the same supervised workflow.",
+          "tags": ["Playwright MCP", "E2E", "Agentic testing"]
+        },
+        {
+          "title": "AI enablement and training",
+          "text": "Lead AI enablement as the team's QA trainer: demonstrating AI-assisted testing practices and reporting automation and AI-adoption performance to management.",
+          "tags": ["AI adoption", "Training", "Claude Code", "GitHub Copilot"]
+        },
+        {
+          "title": "AI-generated evidence reports",
+          "text": "Stakeholders in a multicultural B2B2C environment sign off live in Playwright UI mode or review AI-generated .docx evidence reports asynchronously.",
+          "tags": ["Test evidence", "UAT", "Stakeholder sign-off"]
+        }
+      ]
+    },
+    "featured": [
+      {
+        "id": "cardif",
+        "company": "BNP Paribas Cardif – LATAM",
+        "role": "Staff QA Engineer",
+        "period": "May 2025 – Present",
+        "location": "São Paulo, Brazil",
+        "tagline": "Owning the QA pipeline and bringing agentic AI into insurance testing.",
+        "context": "Insurance products in a regulated, multicultural B2B2C environment, working with stakeholders across Latin America and Europe. I own the automation pipeline for a 9-person QA team and lead its modernization.",
+        "highlights": [
+          "Cut daily pipeline runtime by up to 67% vs. the legacy Java-based Jenkins pipeline by replacing flaky Selenium tests with stable Playwright end-to-end tests. 250+ UI tests and API tests covering 95+ APIs now finish in 33 minutes or less.",
+          "Designed a human-in-the-loop agentic AI testing workflow: AI subagents go from user story to test strategy, BDD scenarios, Playwright code, execution and ALM Octane evidence, with final approval from two QA engineers.",
+          "Built a custom MCP server connecting AI agents to non-production environments, paired with Playwright MCP, plus a proof of concept that reduces a manual multi-tab token process to a single shell call taking seconds.",
+          "Lead the migration of the legacy test pipeline to GitLab CI/CD (risk mitigation, optimization, Git configuration) while moving the Selenium/Cucumber suite to Playwright (JavaScript).",
+          "Own the main branch and review and approve every merge request promoted from develop to main for a 9-person QA team.",
+          "Introduced automated progression testing on every new DEV deployment, followed by UAT validation with stakeholders. Lead AI enablement as the team's QA trainer and report automation and AI-adoption performance to management."
+        ],
+        "stack": ["Playwright", "JavaScript", "Playwright MCP", "Custom MCP server", "AI subagents", "Enterprise LLM platform", "GitLab CI/CD", "Git", "Selenium", "Cucumber (BDD)", "ALM Octane", "REST APIs", "Jira", "Confluence"],
+        "ai_angle": "This is where I build and run agentic AI testing in production QA work: MCP integrations, AI-generated BDD and test code, and a two-person human review gate on every change."
+      },
+      {
+        "id": "bayer",
+        "company": "Bayer Brazil",
+        "role": "Quality Engineer",
+        "period": "Nov 2022 – Mar 2025",
+        "location": "São Paulo, Brazil",
+        "tagline": "Taking a global agtech platform from Test & Learn to production.",
+        "context": "Led QA for the Valora Global Program, an agtech platform that engages farmers in Climate's planting and harvest planning, across web, mobile and backend.",
+        "highlights": [
+          "Led QA validation for the Valora Global Program and drove its transition from a Test & Learn environment to a production-integrated platform.",
+          "Designed, built and maintained scalable automated web test suites with Cypress and Playwright, integrated into CI/CD pipelines with development and DevOps teams.",
+          "Managed merge requests and kept release cycles stable.",
+          "Delivered a consistent cross-platform experience through behavioral testing on Android and iOS physical devices and emulators.",
+          "Improved backend reliability by validating REST API endpoints with Postman and Swagger.",
+          "Authored test plans and technical documentation, and worked with stakeholders to clarify requirements, assess risks and close coverage gaps."
+        ],
+        "stack": ["Cypress", "Playwright", "CI/CD", "Postman", "Swagger/OpenAPI", "REST APIs", "Android", "iOS", "Mobile testing", "Test planning"],
+        "ai_angle": "The Playwright and CI/CD engineering I did at Bayer is the foundation my AI-generated tests run on today. Agentic testing only pays off when the framework underneath is stable."
+      },
+      {
+        "id": "accenture",
+        "company": "Accenture Brazil",
+        "role": "QA Intern → QA Analyst (Mid-Level)",
+        "period": "Nov 2014 – Nov 2021",
+        "location": "São Paulo, Brazil",
+        "tagline": "Seven years of enterprise QA across telecom, retail and financial services.",
+        "context": "Grew from intern to mid-level QA analyst across several client engagements, covering SAP, mobile and functional testing in Agile/Scrum teams.",
+        "highlights": [
+          "Progressed from intern to mid-level QA analyst over 7 years across telecom, retail and financial services clients.",
+          "Automated SAP functional and regression suites with Tricentis Tosca.",
+          "Automated native, hybrid and web mobile tests with Appium on iOS and Android.",
+          "Covered a wide range of platforms by testing on physical devices and simulators.",
+          "Defined and executed functional and behavioral test strategies with supporting technical documentation, in Agile/Scrum ceremonies with cross-functional teams."
+        ],
+        "stack": ["Tricentis Tosca", "SAP", "Appium", "iOS", "Android", "Functional testing", "Regression testing", "Agile/Scrum"],
+        "ai_angle": "Years of enterprise regression and cross-device testing taught me what good coverage looks like, and that's what I check for when I review AI-generated tests."
+      }
+    ],
+    "earlier": [
+      {
+        "company": "BRQ – Bradesco Cards",
+        "role": "QA Engineer",
+        "period": "May 2022 – Nov 2022",
+        "location": "São Paulo, Brazil",
+        "summary": "Automated mass card-generation workflows using Test Data Management (TDM) and ran jobs and complex queries in IBM mainframe environments.",
+        "chips": ["Test Data Management", "IBM mainframe", "SQL", "Banking / cards"]
+      },
+      {
+        "company": "Neoris",
+        "role": "QA Analyst",
+        "period": "Nov 2021 – May 2022",
+        "location": "São Paulo, Brazil",
+        "summary": "Investigated production issues with Snowflake SQL, tested new metrics in UAT, validated MicroStrategy BI reports and built Power BI monitoring dashboards.",
+        "chips": ["Snowflake", "SQL", "MicroStrategy", "Power BI", "UAT", "Azure DevOps"]
+      }
+    ],
+    "skills": {
+      "title": "Skills",
+      "groups": [
+        { "name": "AI in testing", "chips": ["Agentic AI testing workflows", "Human-in-the-loop", "AI subagents", "Custom MCP server development", "Model Context Protocol", "Playwright MCP", "Enterprise LLM integration", "AI-generated BDD/Gherkin"] },
+        { "name": "AI tools", "chips": ["Claude Code", "GitHub Copilot", "Grok", "Internal enterprise AI platform"] },
+        { "name": "Test automation", "chips": ["Playwright", "Cypress", "Selenium", "Cucumber (BDD)", "Appium", "Tricentis Tosca"] },
+        { "name": "API & performance", "chips": ["Postman", "Swagger/OpenAPI", "REST contract validation", "Integration testing", "Apache JMeter"] },
+        { "name": "CI/CD & DevOps", "chips": ["GitLab CI/CD", "Jenkins", "Git branching strategy", "Merge request reviews", "Azure DevOps"] },
+        { "name": "Programming", "chips": ["JavaScript", "Python (proofs of concept)", "Shell scripting", "SQL"] },
+        { "name": "Practices", "chips": ["Agile/Scrum", "BDD", "Shift-left testing", "Risk-based testing", "Exploratory testing", "UAT"] },
+        { "name": "Test management & data", "chips": ["ALM Octane", "Jira", "Confluence", "Snowflake", "IBM mainframe", "MicroStrategy", "Power BI"] },
+        { "name": "Platforms", "chips": ["Web", "iOS", "Android (native/hybrid)", "Backend/microservices"] },
+        { "name": "Currently studying", "chips": ["LLM/RAG evaluation", "DeepEval", "RAG metrics (faithfulness, answer relevancy, contextual precision/recall)", "Golden datasets"], "note": "Learning through Udemy courses, not yet used in production." },
+        { "name": "Spoken languages", "chips": ["English (professional)", "Spanish (intermediate)", "Portuguese (native)"] }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "intro": "Public work you can open and run.",
+      "items": [
+        {
+          "title": "CypressTestingAPI",
+          "subtitle": "Cypress + JavaScript · API automation",
+          "description": "An end-to-end API test suite for the public ServeRest API, independent of any front end. Specs are organized by domain across three business flows: users and authentication (POST /usuarios, POST /login), products (POST and GET /produtos) and the cart from start to finish (POST and DELETE /carrinhos). Tests check status codes, messages, tokens and response data, and use @faker-js/faker for test data.",
+          "tags": ["Cypress", "JavaScript", "REST API", "Faker", "API testing"],
+          "links": [
+            { "label": "GitHub repo", "href": "https://github.com/dennermaestro/CypressTestingAPI" },
+            { "label": "ServeRest API", "href": "https://serverest.dev" }
+          ]
+        },
+        {
+          "title": "API testing case study",
+          "subtitle": "API testing portfolio",
+          "description": "My previous portfolio site, bilingual (PT/EN), with a walkthrough of the CypressTestingAPI project's structure and test flows.",
+          "tags": ["Portfolio", "API testing", "Cypress"],
+          "links": [
+            { "label": "Open portfolio", "href": "https://dennermaestro.github.io/Portfolio.io/api-portfolio/" },
+            { "label": "GitHub profile", "href": "https://github.com/dennermaestro" }
+          ]
+        }
+      ]
+    },
+    "learning": {
+      "title": "Education and learning",
+      "education": {
+        "degree": "Bachelor of Science in Information Systems",
+        "school": "Anhanguera University",
+        "year": "2015",
+        "location": "São Paulo, Brazil"
+      },
+      "courses": [
+        {
+          "title": "Learn AI Tools & Build AI Agents for Testing & QA Automation",
+          "provider": "Udemy",
+          "status": "In progress",
+          "topics": ["Prompt engineering for QA", "GitHub Copilot", "MCP servers and AI agents", "Claude Code", "n8n AI workflows", "Offline LLMs"]
+        },
+        {
+          "title": "Testing AI Systems with DeepEval: AI Agents, Chatbots & RAG",
+          "provider": "Udemy",
+          "status": "In progress",
+          "topics": ["DeepEval", "RAG and chatbot evaluation", "Golden datasets", "Trace-based agent testing", "AI safety testing", "Python"]
+        }
+      ],
+      "note": "I'm studying LLM and RAG evaluation with DeepEval so I can test AI products, not only test with AI."
+    },
+    "contact": {
+      "title": "Let's talk",
+      "text": "I'm looking for remote SDET, AI QA and Quality Engineering roles on teams in US time zones. If you're building AI-powered products, or want your team to use AI in testing safely, let's talk.",
+      "location": "São Paulo, Brazil · Remote (US time zones)",
+      "links": [
+        { "label": "Email", "value": "denner.sp@hotmail.com", "href": "mailto:denner.sp@hotmail.com" },
+        { "label": "LinkedIn", "value": "linkedin.com/in/denner-santana-778b67b7", "href": "https://www.linkedin.com/in/denner-santana-778b67b7" },
+        { "label": "GitHub", "value": "github.com/dennermaestro", "href": "https://github.com/dennermaestro" },
+        { "label": "API testing portfolio", "value": "dennermaestro.github.io/Portfolio.io/api-portfolio", "href": "https://dennermaestro.github.io/Portfolio.io/api-portfolio/" }
+      ]
+    },
+    "footer": "© 2026 Denner Santana · Staff QA Engineer / SDET · AI-Driven Test Automation · São Paulo, Brazil",
+    "recruiter_keywords": [
+      "AI QA Engineer", "SDET", "Staff QA Engineer", "Quality Engineer", "Test Automation Engineer",
+      "AI-driven test automation", "Agentic AI testing", "Human-in-the-loop", "AI subagents",
+      "MCP", "Model Context Protocol", "Custom MCP server", "Playwright MCP", "LLM integration",
+      "Enterprise AI platform", "AI-generated test cases", "AI-generated BDD", "Claude Code", "GitHub Copilot",
+      "Playwright", "JavaScript", "Cypress", "Selenium", "Cucumber", "BDD", "Gherkin", "Appium", "Tricentis Tosca",
+      "GitLab CI/CD", "Jenkins", "Azure DevOps", "Git", "CI/CD pipeline optimization", "Flaky test reduction",
+      "Test framework migration", "API testing", "REST API", "Contract validation", "Postman", "Swagger", "OpenAPI",
+      "JMeter", "Performance testing", "Mobile testing", "iOS", "Android", "ALM Octane", "Jira", "Confluence",
+      "SQL", "Snowflake", "Python", "Shell scripting", "Shift-left testing", "Risk-based testing", "Exploratory testing",
+      "UAT", "Agile", "Scrum", "QA leadership", "Merge request reviews", "QA training", "Insurance", "Fintech", "Agtech",
+      "Remote", "US time zones", "English", "Spanish", "Portuguese"
+    ]
+  },
+  "pt": {
+    "meta": {
+      "title": "Denner Santana | Staff QA Engineer / SDET, Automação de Testes com IA",
+      "description": "Staff QA Engineer / SDET com 11+ anos. Testes com IA agêntica, servidores MCP, Playwright e GitLab CI/CD. Aberto a vagas remotas (fusos dos EUA).",
+      "keywords": [
+        "Engenheiro de QA com IA",
+        "AI QA Engineer",
+        "SDET",
+        "Staff QA Engineer",
+        "Automação de testes com IA",
+        "Testes com IA agêntica",
+        "Human-in-the-loop",
+        "Subagentes de IA",
+        "MCP (Model Context Protocol)",
+        "Servidor MCP customizado",
+        "Playwright MCP",
+        "Integração com LLM",
+        "Cenários BDD gerados por IA",
+        "Playwright",
+        "JavaScript",
+        "GitLab CI/CD",
+        "Otimização de pipeline CI/CD",
+        "Redução de testes flaky",
+        "Migração de Selenium para Playwright",
+        "Testes de API",
+        "Validação de contrato REST",
+        "Postman",
+        "Swagger/OpenAPI",
+        "BDD / Gherkin / Cucumber",
+        "Cypress",
+        "Testes mobile com Appium",
+        "Claude Code",
+        "GitHub Copilot",
+        "Shift-left testing",
+        "Testes baseados em risco"
+      ]
+    },
+    "nav": {
+      "about": "Sobre",
+      "ai_focus": "Testes com IA",
+      "experience": "Experiência",
+      "skills": "Competências",
+      "projects": "Projetos",
+      "learning": "Formação",
+      "contact": "Contato",
+      "language_toggle": "EN",
+      "resume_cta": "Fale comigo"
+    },
+    "hero": {
+      "eyebrow": "Staff QA Engineer / SDET · Automação de Testes com IA",
+      "headline": "Testes agênticos. Aprovação humana.",
+      "subheadline": "11+ anos em QA. Crio fluxos de testes com IA e humano no circuito, usando subagentes de IA, servidores MCP customizados e Playwright, que transformam user stories em testes revisados, executados e documentados. Aberto a vagas remotas de SDET e AI QA em fusos horários dos EUA.",
+      "terminal": [
+        { "cmd": "$ npx playwright test", "out": "✓ 250+ testes de UI + testes de API em 95+ APIs · concluído em ≤ 33 min" },
+        { "cmd": "$ diff pipeline --legacy=jenkins+selenium --new=gitlab-ci+playwright", "out": "↓ até 67% mais rápido na execução diária" },
+        { "cmd": "$ agent run --input=user-story", "out": "→ estratégia → cenários BDD → código de teste → execução no Playwright → evidências no ALM Octane" },
+        { "cmd": "$ review --required-approvals=2", "out": "✓ toda mudança gerada por IA é aprovada por dois engenheiros de QA" },
+        { "cmd": "$ mcp connect --env=non-prod", "out": "✓ servidor MCP customizado + Playwright MCP prontos" }
+      ],
+      "cta_primary": { "label": "Veja como testo com IA", "href": "#ai-focus" },
+      "cta_secondary": { "label": "Entrar em contato", "href": "#contact" }
+    },
+    "stats": [
+      { "number": "11", "suffix": "+", "label": "anos em QA e automação de testes" },
+      { "number": "67", "suffix": "%", "label": "pipeline diário mais rápido (até, vs. Jenkins legado)" },
+      { "number": "250", "suffix": "+", "label": "testes de UI em Playwright no pipeline diário" },
+      { "number": "95", "suffix": "+", "label": "APIs cobertas por testes automatizados" }
+    ],
+    "about": {
+      "title": "Sobre",
+      "paragraphs": [
+        "Sou Staff QA Engineer e SDET em São Paulo, com 11+ anos em garantia de qualidade e automação de testes nos setores regulados de seguros, fintech, agtech e varejo. Na BNP Paribas Cardif, sou dono do pipeline de automação de QA de um time de 9 pessoas e lidero a modernização de um setup legado em Selenium/Jenkins para Playwright no GitLab CI/CD, reduzindo o tempo do pipeline diário em até 67%.",
+        "Hoje meu foco é IA aplicada a testes: fluxos agênticos supervisionados por humanos, em que subagentes de IA, servidores MCP customizados e uma plataforma corporativa de IA fazem o trabalho pesado, e os engenheiros de QA dão a palavra final. Trabalho em inglês, espanhol e português com stakeholders de negócio e técnicos na América Latina e na Europa, e estou aberto a vagas remotas em fusos horários dos EUA."
+      ]
+    },
+    "ai_focus": {
+      "title": "Testes com IA, com humano no circuito",
+      "intro": "Na Cardif, desenhei um fluxo de testes agêntico em que subagentes de IA transformam uma user story em testes executados e documentados. A IA rascunha e executa. Dois engenheiros de QA revisam e aprovam cada mudança antes de qualquer promoção.",
+      "pipeline": [
+        { "step": "01", "title": "Ler a story", "text": "Um subagente de IA lê a user story e seus critérios de aceite." },
+        { "step": "02", "title": "Rascunhar a estratégia", "text": "O agente rascunha uma estratégia de testes para os riscos e o escopo da story." },
+        { "step": "03", "title": "Gerar BDD", "text": "Cenários BDD/Gherkin são gerados e revisados em relação ao comportamento de negócio." },
+        { "step": "04", "title": "Escrever o código", "text": "O código de teste em Playwright (JavaScript) é gerado e revisado." },
+        { "step": "05", "title": "Executar no Playwright", "text": "Os testes rodam no Playwright e as evidências são registradas no ALM Octane." },
+        { "step": "06", "title": "Aprovação humana", "text": "Dois engenheiros de QA fazem a revisão final de cada mudança antes da aprovação." }
+      ],
+      "capabilities": [
+        {
+          "title": "Servidor MCP customizado",
+          "text": "Construí um servidor Model Context Protocol que conecta agentes de IA a ambientes não produtivos. Uma prova de conceito unifica integrações baseadas em token entre proxies e serviços de backend em uma única chamada de shell, e um processo manual com várias abas passa a levar segundos.",
+          "tags": ["MCP", "Agentes de IA", "Ambientes não produtivos", "Shell"]
+        },
+        {
+          "title": "Playwright MCP",
+          "text": "Combinei o servidor MCP customizado com o Playwright MCP para que os agentes controlem o navegador e executem verificações end-to-end dentro do mesmo fluxo supervisionado.",
+          "tags": ["Playwright MCP", "E2E", "Testes agênticos"]
+        },
+        {
+          "title": "Capacitação em IA",
+          "text": "Lidero a capacitação em IA como instrutor de QA do time: demonstro práticas de testes assistidos por IA e reporto à gestão o desempenho da automação e da adoção de IA.",
+          "tags": ["Adoção de IA", "Treinamento", "Claude Code", "GitHub Copilot"]
+        },
+        {
+          "title": "Relatórios de evidência gerados por IA",
+          "text": "Stakeholders de um ambiente B2B2C multicultural aprovam ao vivo pelo modo UI do Playwright ou revisam de forma assíncrona relatórios de evidência em .docx gerados por IA.",
+          "tags": ["Evidências de teste", "UAT", "Aprovação de stakeholders"]
+        }
+      ]
+    },
+    "featured": [
+      {
+        "id": "cardif",
+        "company": "BNP Paribas Cardif – LATAM",
+        "role": "Staff QA Engineer",
+        "period": "Maio 2025 – atual",
+        "location": "São Paulo, Brasil",
+        "tagline": "Dono do pipeline de QA e responsável por trazer IA agêntica aos testes de seguros.",
+        "context": "Produtos de seguros em um ambiente regulado, multicultural e B2B2C, com stakeholders na América Latina e na Europa. Sou dono do pipeline de automação de um time de QA de 9 pessoas e lidero sua modernização.",
+        "highlights": [
+          "Reduzi o tempo do pipeline diário em até 67% em relação ao pipeline legado em Jenkins (Java) ao substituir testes Selenium instáveis por testes end-to-end estáveis em Playwright. 250+ testes de UI e testes de API em 95+ APIs agora terminam em 33 minutos ou menos.",
+          "Desenhei um fluxo de testes com IA agêntica e humano no circuito: subagentes de IA vão da user story à estratégia de testes, cenários BDD, código Playwright, execução e evidências no ALM Octane, com aprovação final de dois engenheiros de QA.",
+          "Construí um servidor MCP customizado que conecta agentes de IA a ambientes não produtivos, combinado com o Playwright MCP, além de uma prova de conceito que reduz um processo manual de tokens com várias abas a uma única chamada de shell que leva segundos.",
+          "Lidero a migração do pipeline de testes legado para o GitLab CI/CD (mitigação de riscos, otimização, configuração do Git) enquanto migro a suíte Selenium/Cucumber para Playwright (JavaScript).",
+          "Sou responsável pela branch main e reviso e aprovo cada merge request promovido de develop para main em um time de QA de 9 pessoas.",
+          "Implantei testes de progressão automatizados a cada novo deploy em DEV, seguidos de validação em UAT com stakeholders. Lidero a capacitação em IA como instrutor de QA do time e reporto à gestão o desempenho da automação e da adoção de IA."
+        ],
+        "stack": ["Playwright", "JavaScript", "Playwright MCP", "Servidor MCP customizado", "Subagentes de IA", "Plataforma corporativa de LLM", "GitLab CI/CD", "Git", "Selenium", "Cucumber (BDD)", "ALM Octane", "APIs REST", "Jira", "Confluence"],
+        "ai_angle": "É aqui que construo e opero testes com IA agêntica no trabalho real de QA: integrações MCP, BDD e código de teste gerados por IA, e uma revisão humana feita por duas pessoas em cada mudança."
+      },
+      {
+        "id": "bayer",
+        "company": "Bayer Brasil",
+        "role": "Quality Engineer",
+        "period": "Nov. 2022 – mar. 2025",
+        "location": "São Paulo, Brasil",
+        "tagline": "Levando uma plataforma global de agtech do Test & Learn à produção.",
+        "context": "Liderei o QA do Valora Global Program, uma plataforma de agtech que engaja agricultores no planejamento de plantio e colheita da Climate, em web, mobile e backend.",
+        "highlights": [
+          "Liderei a validação de QA do Valora Global Program e conduzi sua transição de um ambiente Test & Learn para uma plataforma integrada à produção.",
+          "Projetei, implementei e mantive suítes escaláveis de testes web automatizados com Cypress e Playwright, integradas a pipelines de CI/CD em conjunto com os times de desenvolvimento e DevOps.",
+          "Gerenciei merge requests e mantive ciclos de release estáveis.",
+          "Garanti uma experiência consistente entre plataformas com testes comportamentais em dispositivos físicos e emuladores Android e iOS.",
+          "Aumentei a confiabilidade do backend validando endpoints de API REST com Postman e Swagger.",
+          "Escrevi planos de teste e documentação técnica, e trabalhei com stakeholders para esclarecer requisitos, avaliar riscos e fechar lacunas de cobertura."
+        ],
+        "stack": ["Cypress", "Playwright", "CI/CD", "Postman", "Swagger/OpenAPI", "APIs REST", "Android", "iOS", "Testes mobile", "Planejamento de testes"],
+        "ai_angle": "A engenharia de Playwright e CI/CD que fiz na Bayer é a base sobre a qual meus testes gerados por IA rodam hoje. Testes agênticos só valem a pena quando o framework por baixo é estável."
+      },
+      {
+        "id": "accenture",
+        "company": "Accenture Brasil",
+        "role": "Estagiário de QA → Analista de QA (Pleno)",
+        "period": "Nov. 2014 – nov. 2021",
+        "location": "São Paulo, Brasil",
+        "tagline": "Sete anos de QA corporativo em telecom, varejo e serviços financeiros.",
+        "context": "Cresci de estagiário a analista de QA pleno em diversos projetos de clientes, com testes de SAP, mobile e funcionais em times Agile/Scrum.",
+        "highlights": [
+          "Evoluí de estagiário a analista de QA pleno ao longo de 7 anos, em clientes de telecom, varejo e serviços financeiros.",
+          "Automatizei suítes funcionais e de regressão de SAP com Tricentis Tosca.",
+          "Automatizei testes mobile nativos, híbridos e web com Appium em iOS e Android.",
+          "Cobri uma grande variedade de plataformas testando em dispositivos físicos e simuladores.",
+          "Defini e executei estratégias de testes funcionais e comportamentais com documentação técnica, em cerimônias Agile/Scrum com times multifuncionais."
+        ],
+        "stack": ["Tricentis Tosca", "SAP", "Appium", "iOS", "Android", "Testes funcionais", "Testes de regressão", "Agile/Scrum"],
+        "ai_angle": "Anos de testes corporativos de regressão e em múltiplos dispositivos me ensinaram o que é uma boa cobertura, e é isso que eu verifico quando reviso testes gerados por IA."
+      }
+    ],
+    "earlier": [
+      {
+        "company": "BRQ – Bradesco Cartões",
+        "role": "QA Engineer",
+        "period": "Maio 2022 – nov. 2022",
+        "location": "São Paulo, Brasil",
+        "summary": "Automatizei fluxos de geração de cartões em massa com Test Data Management (TDM) e executei jobs e consultas complexas em ambientes IBM mainframe.",
+        "chips": ["Test Data Management", "IBM mainframe", "SQL", "Setor bancário / cartões"]
+      },
+      {
+        "company": "Neoris",
+        "role": "Analista de QA",
+        "period": "Nov. 2021 – maio 2022",
+        "location": "São Paulo, Brasil",
+        "summary": "Investiguei incidentes de produção com SQL no Snowflake, testei novas métricas em UAT, validei relatórios de BI no MicroStrategy e criei dashboards de monitoramento no Power BI.",
+        "chips": ["Snowflake", "SQL", "MicroStrategy", "Power BI", "UAT", "Azure DevOps"]
+      }
+    ],
+    "skills": {
+      "title": "Competências",
+      "groups": [
+        { "name": "IA em testes", "chips": ["Fluxos de testes com IA agêntica", "Human-in-the-loop", "Subagentes de IA", "Desenvolvimento de servidor MCP customizado", "Model Context Protocol", "Playwright MCP", "Integração com LLM corporativo", "BDD/Gherkin gerado por IA"] },
+        { "name": "Ferramentas de IA", "chips": ["Claude Code", "GitHub Copilot", "Grok", "Plataforma corporativa interna de IA"] },
+        { "name": "Automação de testes", "chips": ["Playwright", "Cypress", "Selenium", "Cucumber (BDD)", "Appium", "Tricentis Tosca"] },
+        { "name": "API e performance", "chips": ["Postman", "Swagger/OpenAPI", "Validação de contrato REST", "Testes de integração", "Apache JMeter"] },
+        { "name": "CI/CD e DevOps", "chips": ["GitLab CI/CD", "Jenkins", "Estratégia de branches no Git", "Revisão de merge requests", "Azure DevOps"] },
+        { "name": "Programação", "chips": ["JavaScript", "Python (provas de conceito)", "Shell script", "SQL"] },
+        { "name": "Práticas", "chips": ["Agile/Scrum", "BDD", "Shift-left testing", "Testes baseados em risco", "Testes exploratórios", "UAT"] },
+        { "name": "Gestão de testes e dados", "chips": ["ALM Octane", "Jira", "Confluence", "Snowflake", "IBM mainframe", "MicroStrategy", "Power BI"] },
+        { "name": "Plataformas", "chips": ["Web", "iOS", "Android (nativo/híbrido)", "Backend/microsserviços"] },
+        { "name": "Estudando atualmente", "chips": ["Avaliação de LLM/RAG", "DeepEval", "Métricas de RAG (faithfulness, answer relevancy, contextual precision/recall)", "Golden datasets"], "note": "Em aprendizado por cursos na Udemy, ainda sem uso em produção." },
+        { "name": "Idiomas", "chips": ["Inglês (profissional)", "Espanhol (intermediário)", "Português (nativo)"] }
+      ]
+    },
+    "projects": {
+      "title": "Projetos",
+      "intro": "Trabalho público que você pode abrir e executar.",
+      "items": [
+        {
+          "title": "CypressTestingAPI",
+          "subtitle": "Cypress + JavaScript · Automação de API",
+          "description": "Uma suíte end-to-end de testes de API para a API pública ServeRest, independente de qualquer front-end. As specs são organizadas por domínio em três fluxos de negócio: usuários e autenticação (POST /usuarios, POST /login), produtos (POST e GET /produtos) e o carrinho de ponta a ponta (POST e DELETE /carrinhos). Os testes validam códigos de status, mensagens, tokens e dados de resposta, e usam @faker-js/faker para gerar dados.",
+          "tags": ["Cypress", "JavaScript", "API REST", "Faker", "Testes de API"],
+          "links": [
+            { "label": "Repositório no GitHub", "href": "https://github.com/dennermaestro/CypressTestingAPI" },
+            { "label": "API ServeRest", "href": "https://serverest.dev" }
+          ]
+        },
+        {
+          "title": "Estudo de caso de testes de API",
+          "subtitle": "Portfólio de testes de API",
+          "description": "Meu site de portfólio anterior, bilíngue (PT/EN), com uma apresentação da estrutura e dos fluxos de teste do projeto CypressTestingAPI.",
+          "tags": ["Portfólio", "Testes de API", "Cypress"],
+          "links": [
+            { "label": "Abrir portfólio", "href": "https://dennermaestro.github.io/Portfolio.io/api-portfolio/" },
+            { "label": "Perfil no GitHub", "href": "https://github.com/dennermaestro" }
+          ]
+        }
+      ]
+    },
+    "learning": {
+      "title": "Formação e aprendizado",
+      "education": {
+        "degree": "Bacharelado em Sistemas de Informação",
+        "school": "Universidade Anhanguera",
+        "year": "2015",
+        "location": "São Paulo, Brasil"
+      },
+      "courses": [
+        {
+          "title": "Learn AI Tools & Build AI Agents for Testing & QA Automation",
+          "provider": "Udemy",
+          "status": "Em andamento",
+          "topics": ["Engenharia de prompts para QA", "GitHub Copilot", "Servidores MCP e agentes de IA", "Claude Code", "Fluxos de IA com n8n", "LLMs offline"]
+        },
+        {
+          "title": "Testing AI Systems with DeepEval: AI Agents, Chatbots & RAG",
+          "provider": "Udemy",
+          "status": "Em andamento",
+          "topics": ["DeepEval", "Avaliação de RAG e chatbots", "Golden datasets", "Testes de agentes baseados em traces", "Testes de segurança de IA", "Python"]
+        }
+      ],
+      "note": "Estou estudando avaliação de LLMs e RAG com DeepEval para testar produtos de IA, e não apenas testar com IA."
+    },
+    "contact": {
+      "title": "Vamos conversar",
+      "text": "Procuro vagas remotas de SDET, AI QA e Quality Engineering em times nos fusos horários dos EUA. Se você está construindo produtos com IA, ou quer que seu time use IA nos testes com segurança, vamos conversar.",
+      "location": "São Paulo, Brasil · Remoto (fusos dos EUA)",
+      "links": [
+        { "label": "E-mail", "value": "denner.sp@hotmail.com", "href": "mailto:denner.sp@hotmail.com" },
+        { "label": "LinkedIn", "value": "linkedin.com/in/denner-santana-778b67b7", "href": "https://www.linkedin.com/in/denner-santana-778b67b7" },
+        { "label": "GitHub", "value": "github.com/dennermaestro", "href": "https://github.com/dennermaestro" },
+        { "label": "Portfólio de testes de API", "value": "dennermaestro.github.io/Portfolio.io/api-portfolio", "href": "https://dennermaestro.github.io/Portfolio.io/api-portfolio/" }
+      ]
+    },
+    "footer": "© 2026 Denner Santana · Staff QA Engineer / SDET · Automação de Testes com IA · São Paulo, Brasil",
+    "recruiter_keywords": [
+      "AI QA Engineer", "Engenheiro de QA", "SDET", "Staff QA Engineer", "Quality Engineer", "Test Automation Engineer",
+      "Automação de testes com IA", "Testes com IA agêntica", "Human-in-the-loop", "Subagentes de IA",
+      "MCP", "Model Context Protocol", "Servidor MCP customizado", "Playwright MCP", "Integração com LLM",
+      "Plataforma corporativa de IA", "Casos de teste gerados por IA", "BDD gerado por IA", "Claude Code", "GitHub Copilot",
+      "Playwright", "JavaScript", "Cypress", "Selenium", "Cucumber", "BDD", "Gherkin", "Appium", "Tricentis Tosca",
+      "GitLab CI/CD", "Jenkins", "Azure DevOps", "Git", "Otimização de pipeline CI/CD", "Redução de testes flaky",
+      "Migração de framework de testes", "Testes de API", "API REST", "Validação de contrato", "Postman", "Swagger", "OpenAPI",
+      "JMeter", "Testes de performance", "Testes mobile", "iOS", "Android", "ALM Octane", "Jira", "Confluence",
+      "SQL", "Snowflake", "Python", "Shell script", "Shift-left testing", "Testes baseados em risco", "Testes exploratórios",
+      "UAT", "Agile", "Scrum", "Liderança de QA", "Revisão de merge requests", "Treinamento de QA", "Seguros", "Fintech", "Agtech",
+      "Remoto", "Fusos horários dos EUA", "Inglês", "Espanhol", "Português"
+    ]
+  }
+}
